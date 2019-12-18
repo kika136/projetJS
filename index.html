@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="style.css">
+     <title>Formulaire</title>
+     
+ </head>
+     <div class="titre">
+         <h1>Formulaire d'inscription</h1>
+     </div>
+     <div class="formulaire">
+         <form method ="POST" id="formulaire">
+             <p id="erreur" style="color:red;"></p>
+             <ul>
+                 <li>
+                     <input type="text" id="pseudo" name="pseudo" placeholder="Pseudo">
+                 </li>
+                 <li>
+                     <input type="text" id="nom" name="nom" placeholder="Nom">
+                 </li>
+                 <li>
+                     <input type="text" id="prenom" name="prenom" placeholder="Prenom">
+                  </li>
+                 <li>
+                     <input type ="email" id="email" name="email" placeholder="Email">
+                 </li>
+                 <li>
+                     <input type="date" id="datenaissance" name="datenaissance" placeholder="Date De Naissance">
+                 </li>
+                 <li>
+                     <input type="password" id="mdp" name="mdp" placeholder="Mot De Passe">
+                 </li>
+                 <li>
+                     <input type="password" id="confirmemdp" name="confirmemdp" placeholder="Comfirmez Votre MDP">
+                 </li>
+                 <li>
+                     <select name="select" id="select">
+                         <option value="">--Choissez votre sexe--</option>
+                         <option value="homme">Homme</option>
+                         <option value="femme">Femme</option>
+                         <option value="nonb">Non binaire</option>
+                         <option value="alien">Alien???</option>
+                     </select>
+                </li>
+                 <li>
+                     <input type="submit">
+                 </li>
+             </ul>
+        </div>
+    </form>
+    <script src="main.js"></script>
+   </body>
+ </html>
